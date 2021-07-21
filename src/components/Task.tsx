@@ -10,8 +10,8 @@ export type ITask = {
 
 type TaskProps = {
   task: ITask;
-  onArchiveTask: () => void;
-  onPinTask: () => void;
+  onArchiveTask: (id: string) => void;
+  onPinTask: (id: string) => void;
 };
 
 export default function Task({
