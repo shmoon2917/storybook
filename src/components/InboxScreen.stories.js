@@ -30,3 +30,8 @@ export const Error = Template.bind({});
 Error.args = {
   error: 'Something',
 };
+
+export const Error2 = Template.bind({});
+Error2.args = {
+  error: 'Something2',
+};
